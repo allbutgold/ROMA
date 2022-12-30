@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-}
 
 @font-face {
     font-family: SantioBold;
@@ -34,8 +31,9 @@ body, html {
     font-family: Tangerine;
 }
 
-.backgroundBlack {
-    background-color:black ;
+.backgroundGrey {
+    background-color:rgb(41, 41, 41);
+    padding: 0.3%;
 }
 
 .white {
@@ -90,16 +88,19 @@ body, html {
 }
 
 .parallaxLayer3 div{
-    font-size: 3.5rem;
     text-align: left;
     width: 80%;
     margin: auto;
+    line-height: 50px;
 }
 
 .parallaxLayer4 div{
     font-size: 6rem;
     text-align: left;
     width: 60%;
+}
+
+.parallaxLayer4 div h2{
     line-height: 60px;
 }
 
@@ -153,6 +154,7 @@ body, html {
     text-align: left;
     width: 60%;
     margin-left: 30vw;
+    line-height: 60px;
 }
 
 .text p {
@@ -162,7 +164,8 @@ body, html {
 
 .image {
     background-image: url(../img/kid.jpg);
-    height: 100%;
+    height: 80vh;
+    width: 100%;
     background-size: cover;
 }
 
@@ -182,9 +185,13 @@ body, html {
 }
 
 .bottom div a {
-    
+    padding: 2%;
     text-align: center;
     text-decoration: none;
     border: 1px solid white;
+}
+
+.bottom div a:hover {
+    box-shadow: white 3px 3px 3px;
 }
 
