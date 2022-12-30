@@ -34,6 +34,10 @@ body, html {
     font-family: Tangerine;
 }
 
+.backgroundBlack {
+    background-color:black ;
+}
+
 .white {
     color: white;
 }
@@ -67,62 +71,88 @@ body, html {
 
 .parallax {
     background-image: url("../img/cleo-topper.jpg");
-    height: 100%;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
+    padding: 8%;
 }
 
-.parallax:nth-of-type(1) div{
+.parallaxLayer1 div{
     font-size: 4rem;
     width: 35%;
 }
 
-.parallax:nth-of-type(2) div{
+.parallaxLayer2 div{
     font-size: 4rem;
     text-align: left;
 }
 
-.parallax:nth-of-type(3) div{
+.parallaxLayer3 div{
     font-size: 3.5rem;
     text-align: left;
     width: 80%;
     margin: auto;
 }
 
-.parallax:nth-of-type(4) div{
+.parallaxLayer4 div{
     font-size: 6rem;
     text-align: left;
-    width: 50%;
-
-    display: flex;
-    flex-wrap: wrap; 
+    width: 60%;
+    line-height: 60px;
 }
 
-.parallax:nth-of-type(4) div span{
+.parallaxLayer4 div span{
     font-size: 2.3rem;
     text-align: left;
     width: 80%;
     margin: auto;
 }
 
-.parallax:nth-of-type(5) div{
+.parallaxLayer4 img {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.parallaxLayer5 div{
     font-size: 2rem;
     text-align: left;
     width: 40%;
-
     display: flex;
     flex-wrap: wrap; 
 }
 
+.parallaxLayer5 img {
+    width: 150px;
+    margin-bottom: 50px;
+}
 
+.parallaxLayer5 div span{
+    width: 40%;
+}
 
-.parallax:nth-of-type(6) div p{
+.parallaxLayer5 div h2{
+    font-size: 3rem;
+    text-align: left;
+    width: 600px;
+}
+
+.parallaxLayer6 div p{
     text-align: left;
     width: 50%;
     margin: auto;
+}
+
+.parallaxLayer6 img {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.parallaxLayer7 div{
+    text-align: left;
+    width: 60%;
+    margin-left: 30vw;
 }
 
 .text p {
@@ -131,13 +161,30 @@ body, html {
 }
 
 .image {
-    background-image: url(../img/kid.png);
+    background-image: url(../img/kid.jpg);
     height: 100%;
     background-size: cover;
 }
 
 .bottom {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 100vh;
     background-color: black;
+}
+
+.bottom div {
+    margin: 8%;
+    width: 40%;
+    font-size: 6rem;
+}
+
+.bottom div a {
+    
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
 }
 
