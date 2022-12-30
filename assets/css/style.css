@@ -51,32 +51,93 @@ body, html {
 }
 
 .pink {
-    #cb91b6
+    color: #cb91b6;
 }
-
 .blue {
     color: #7eb8e1;
 }
 
+.textLarge {
+    font-size: 10rem;
+}
+
+.textMedium {
+    font-size: 2.5rem;
+}
 
 .parallax {
-    /* The image used */
     background-image: url("../img/cleo-topper.jpg");
-
-    /* Full height */
     height: 100%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5%;
+}
+
+.parallax:nth-of-type(1) div{
+    font-size: 4rem;
+    width: 35%;
+}
+
+.parallax:nth-of-type(2) div{
+    font-size: 4rem;
+    text-align: left;
+}
+
+.parallax:nth-of-type(3) div{
+    font-size: 3.5rem;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.parallax:nth-of-type(4) div{
+    font-size: 6rem;
+    text-align: left;
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.parallax:nth-of-type(4) div span{
+    font-size: 2.3rem;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.parallax:nth-of-type(5) div{
+    font-size: 2rem;
+    text-align: left;
+    width: 40%;
+
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+
+.parallax:nth-of-type(6) div p{
+    text-align: left;
+    width: 50%;
+    margin: auto;
 }
 
 .text p {
     background-color: transparent;
     height: 100vh;
 }
+
+.image {
+    background-image: url(../img/kid.png);
+    height: 100%;
+    background-size: cover;
+}
+
 .bottom {
     height: 100vh;
+    background-color: black;
 }
+
