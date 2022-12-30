@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body, html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: SantioBold;
+    src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Tangerine;
+    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+.fontRoboto {
+    font-family: Roboto;
+}
+
+.fontSantioBold {
+    font-family: SantioBold;
+}
+
+.fontTangerine {
+    font-family: Tangerine;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #efefef;
+}
+
+.yellow {
+    color: #e7bc0e;
+}
+
+.green {
+    color: #6bc1a3;
+}
+
+.pink {
+    #cb91b6
+}
+
+.blue {
+    color: #7eb8e1;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/cleo-topper.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text p {
+    background-color: transparent;
+    height: 100vh;
+}
+.bottom {
+    height: 100vh;
+}
