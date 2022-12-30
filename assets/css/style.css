@@ -67,6 +67,12 @@
     font-size: 2.5rem;
 }
 
+.textSmall {
+    font-size: 1.2rem;
+} 
+
+
+
 .parallax {
     background-image: url("../img/cleo-topper.jpg");
     height: 100vh;
@@ -77,11 +83,35 @@
     padding: 8%;
 }
 
+.parallaxLayer0 {
+    padding: 2%;
+    height: 20vh;
+
+}
+
+.parallaxLayer0 div { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.parallaxLayer0 div a{ 
+    text-decoration-color:#e7bc0e;
+}
+
+.parallaxLayer0 img {
+    width: 50px;
+    margin-right: 20px;
+}
+
 .parallaxLayer1 div{
     font-size: 4rem;
     width: 35%;
 }
 
+.parallaxLayer2 {
+    height: 40vh;
+}
 .parallaxLayer2 div{
     font-size: 4rem;
     text-align: left;
