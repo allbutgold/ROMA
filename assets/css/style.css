@@ -106,11 +106,14 @@
 
 .parallaxLayer1 div{
     font-size: 4rem;
-    width: 35%;
+    width: 40%;
 }
 
 .parallaxLayer2 {
-    height: 40vh;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+
 }
 .parallaxLayer2 div{
     font-size: 4rem;
@@ -187,10 +190,6 @@
     line-height: 60px;
 }
 
-.text p {
-    background-color: transparent;
-    height: 100vh;
-}
 
 .image {
     background-image: url(../img/kid.jpg);
